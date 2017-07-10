@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="Template">
+<head>
+<meta charset="UTF-8" />
+<title>Cadastro de Títulos</title>
+</head>
+
+<div class="modal fade" id="modalExclusao" tabindex="-1" role="dialog"
+	aria-labelledby="exampleModalLabel">
+	
+	<form th:attr="data-url-base='/titulos'" method="POST">
+		<input type="hidden" name="_method" value="DELETE" />
+		
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				</div>
+				
+				<div class="modal-body">
+					<span>Deseja confirmar a exclusão?</span>
+				</div>
+				
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal">Cancelar</button>
+					<button class="btn btn-primary">Excluir</button>			
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+</html>
+
+

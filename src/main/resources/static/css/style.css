@@ -1,0 +1,34 @@
+@media(min-width: 768px){
+	.alert{
+		margin-left:12px;
+		margin-right:12px;	
+	}
+	.panel-default{
+		margin-left:12px;
+		margin-right:12px;
+	}
+	
+	.navbar-brand{
+		padding-top:12px;;
+	}
+}
+
+.input-min-width-95p {min-width:95%;}
+
+input[type="date"]
+{
+    display:block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+}
+
+.aw-link-botao{
+	float:right;
+	padding:0;
+}
+
+.aw-link-titulo{
+	float:left;
+	padding-top:2px;
+}

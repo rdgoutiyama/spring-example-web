@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width"/>
+<title>Cadastro de Títulos</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" type="text/css" />
+<link rel="stylesheet" th:href="@{/css/style.css}" type="text/css" />
+<link rel="stylesheet" th:href="@{/css/bootstrap-datepicker.standalone.min.css}" type="text/css" />
+</head>
+<body>
+
+	<header layout:include="Cabecalho">
+	</header>
+	
+	<section layout:fragment="conteudo">
+		<span>Conteúdo</span>
+	</section>
+	
+	<script	th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js}"></script>
+	<script th:src="@{/js/bootstrap.min.js}" type="text/javascript"></script>
+	<script th:src="@{/js/bootstrap-datepicker.min.js}" type="text/javascript"></script>
+	<script th:src="@{/js/bootstrap-datepicker.pt-BR.min.js}" type="text/javascript"></script>
+	<script th:src="@{/js/jquery.maskMoney.min.js}" type="text/javascript"></script>
+	<script th:src="@{/js/cobranca.js}" type="text/javascript"></script>
+</body>
+</html>
