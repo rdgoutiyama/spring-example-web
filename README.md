@@ -3,6 +3,7 @@ Spring Boot Web Application. Example using Spring-Boot, Spring Security, JPA, Sp
 
 <h1>First step</h1>
 
+
 Install MySQL (4+) and change login and user in application.properties in project;
 
 <H2> Second Step </h1>
